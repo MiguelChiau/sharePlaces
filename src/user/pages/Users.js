@@ -7,12 +7,12 @@ const Users = () => {
       id: "u1",
       name: "Miguel Chiau",
       image:
-        "https://www.google.com/search?q=maputo+sunrise&safe=strict&rlz=1C5CHFA_enCA850CA850&sxsrf=ALeKk00tKtJxcVLp93tQ4EyRIPM_zsXfmA:1590517211738&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjnpKirktLpAhVGIDQIHWsaCeUQ_AUoAXoECA0QAw&biw=1440&bih=820#imgrc=zMcTdm3MS9_4oM",
+        "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       places: 3,
     },
   ];
 
-  return <UsersList />;
+  return <UsersList items={USERS} />;
 };
 
 export default Users;
